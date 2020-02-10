@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package olip;
+
+import "validate/validate.proto";
+
+message Encoder {
+    string script = 1 [(validate.rules).string.min_bytes = 1];
+}
