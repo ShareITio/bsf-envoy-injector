@@ -1,5 +1,8 @@
 .idea/
 .ijwb/
-bazel-*/
+bazel-bin
+bazel-custom_filter
+bazel-out
+bazel-testlogs
 *.log
 
